@@ -64,6 +64,16 @@ body {
     justify-content: center;
 }
 
+.controls .select:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 191, 114, 0.5);
+}
+
+.controls .input:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 191, 114, 0.5);
+}
+
 @media (max-width: 417px) {
     body {
         align-items: flex-start;
